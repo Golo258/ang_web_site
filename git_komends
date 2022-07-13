@@ -84,3 +84,10 @@ Gdy konflikty są za bardzo skomplikowane
 	-- przerywamy rebasowanie 
 rebase - przebazować
 git rebase --abort
+
+git reset --hard
+	-- cofamy wszystkie wprowadzone zmiany
+	-- wracamy do wczesniejszego stanu
+
+git checkout nazwa_pliku
+	-- cofamy wprowadzone zmiany wzgledem danego pliku
