@@ -74,3 +74,13 @@ git pull --rebase
 - po nim trzeba zpushować do zewnetrznego repo
 
 
+git rebase --continue
+	gdy są dwie zmiany nachodzące na siebie ( konfliktujące ze soba)
+	np: w kodzie 
+
+
+
+Gdy konflikty są za bardzo skomplikowane
+	-- przerywamy rebasowanie 
+rebase - przebazować
+git rebase --abort
