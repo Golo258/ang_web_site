@@ -3,6 +3,7 @@ using namespace std;
 
 int function(int a, int b);
 int ten();
+void second_function();
 
 int main()
 {
@@ -16,6 +17,9 @@ int main()
 	int x = ten();
 	cout << x <<endl;
 	
+
+    second_function();
+
 }
 int function(int a, int b)
 {
@@ -33,5 +37,8 @@ int ten()
 	std::cout <<"Siemano kolano";
 	cout << "siemano inaczej;
 	return x;
+void second_function()
+{
+	cout <<"Siemano kolano";
 }
 
