@@ -55,9 +55,22 @@ git merge nazwa_brancha
 		stworzone z poziomu innego brancha
 
 git remote add origin nazwa na githubie
+
 git push -u origin master
 	-wypychanie plików do zewnętrznego repozytorium
 
 
 git clone nazwa_repo - klonuje repozytorium
+
+
+Jeśli mamy stworzone repozytorium zewnetrzne (jako inny user):- copied from other user
+	to dany commit musi zostać  zpullowany przez głównego usera ( mastera )
+
+git pull
+
+git pull --rebase
+	
+	- kiedy chcemy zpulować do githuba zarówno pliki które zpushował user zewnetrzny jak i my (main master)
+- po nim trzeba zpushować do zewnetrznego repo
+
 
