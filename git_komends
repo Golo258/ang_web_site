@@ -1,0 +1,63 @@
+Plik ze stroną:
+	Wchodzimy -right click- git bash here
+
+1. git init - tworzymy repozytorium
+
+ls -a - pokazuje wszystkie pliki/ nawet ukryte
+
+git status
+	- show actual status of our repository 
+
+3 obszary gita:
+	-working directory - tutaj dodajemy pliki
+		2 types of files:
+			tracked - zna je
+			untracked - git nie wie nic o nich
+
+	-staging area - pliki które commitujemy
+
+	-repository - zmienione pliki
+
+git add file
+	-dodaje plik do staging area
+
+git add -A
+	--dodaje wszystkie pliki do staging area
+
+git commit -m"wiadomosc"
+	-commitujemy wszystkie pliki z stagining area
+		(wszystkie zmiany jakie zrobiliśmy)
+
+git commit -am"message"
+	- od razu dodaje zmienione pliki do stagin area
+		- oraz do repozytorium
+		(tylko i wyłącznie jak modyfikujemy )
+		(nowe pliki trzeba najpierw dodać)
+
+
+git log
+	-historia wszystkich commitów
+
+git branch 
+	-pokazuje na jakim jesteśmy akutalnie branchu
+
+git branch nazwa
+	-dodaje nowego brancha
+
+git checkout -b "nazwa_nowego"
+	-tworzymy nowego brancha oraz przenosimy sie na niego
+
+git checkout branch
+	-- przenosimy sie na innego brancha(branch)
+
+git merge nazwa_brancha
+	-dodaje commity do repozytorium 
+		stworzone z poziomu innego brancha
+
+git remote add origin nazwa na githubie
+git push -u origin master
+	-wypychanie plików do zewnętrznego repozytorium
+
+
+git clone nazwa_repo - klonuje repozytorium
+
