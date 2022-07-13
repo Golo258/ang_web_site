@@ -30,7 +30,6 @@ int function(int a, int b)
     return counter;
 }
 
-
 int ten()
 {
 	int x = 10;
