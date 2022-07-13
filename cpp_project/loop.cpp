@@ -20,3 +20,9 @@ int function(int a, int b)
 
     return counter;
 }
+
+
+int main()
+{
+	std::cout <<"Siemano kolano";
+}
