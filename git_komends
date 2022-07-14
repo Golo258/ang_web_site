@@ -35,7 +35,7 @@ git commit -am"message"
 		(nowe pliki trzeba najpierw dodać)
 
 
-git log\dasd
+git log
 	-historia wszystkich commitów
 
 git branch 
